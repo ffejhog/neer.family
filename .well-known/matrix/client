@@ -1,0 +1,25 @@
+{
+	"m.homeserver": {
+		"base_url": "https://matrix.neer.family"
+	}
+,
+	"m.identity_server": {
+		"base_url": "https://matrix.neer.family"
+	}
+,
+	"io.element.jitsi": {
+		"preferredDomain": "jitsi.neer.family"
+	},
+	"im.vector.riot.jitsi": {
+		"preferredDomain": "jitsi.neer.family"
+	}
+	,
+	"io.element.e2ee": {
+		"default": true,
+		"secure_backup_required": false,
+		"secure_backup_setup_methods": []
+	},
+	"im.vector.riot.e2ee": {
+		"default": true
+	}
+}
